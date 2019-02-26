@@ -1,5 +1,4 @@
-ARG PHP_FROM_VERSION=7.3
-FROM php:${PHP_FROM_VERSION}-cli
+FROM php:7.2-cli
 
 WORKDIR "/application"
 
